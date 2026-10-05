@@ -1,0 +1,9 @@
+body {
+  background-image: url("https://peopel-su.github.io/ist263/images/otto.png");
+  background-repeat: repeat;
+}
+
+p {
+  background-color: #F76900;
+  border: 3px solid #000080;
+}
