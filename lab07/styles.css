@@ -17,10 +17,8 @@ a:hover {
 
 nav {
   background-color: #1E293B;
-}
-
-nav a {
-  color: #F1F5F9;
+  padding: 10px;
+  margin-bottom: 30px;
 }
 
 nav a:hover {
