@@ -38,7 +38,7 @@ table, th, td {
 }
 
 .quote {
-    text-align: right;
+    float: right;
 }
 
 footer {
