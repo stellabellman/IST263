@@ -42,5 +42,5 @@ table, th, td {
 }
 
 footer {
-    overflow: hidden; /* contains the float so the footer doesn't collapse */
+    overflow: hidden;
 }
