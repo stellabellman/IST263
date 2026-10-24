@@ -113,3 +113,7 @@ h1 {
 .skillsimage {
   flex-basis: 50%;
 }
+
+.skillsflex {
+  border: 3px solid red;
+}
