@@ -92,3 +92,24 @@ table, th, td {
 .box input[type="submit"]:hover {
     background-color: #34D399;
 }
+
+h1 {
+  text-align: center;
+}
+
+.skillsflex {
+  display: flex;
+}
+
+.skillstable table {
+  margin: 0 auto;
+}
+
+.skillsimage {
+  text-align: center;
+}
+
+.skillstable,
+.skillsimage {
+  flex-basis: 50%;
+}
