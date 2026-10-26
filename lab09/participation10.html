@@ -5,14 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Participation 10</title>
   <style>
-    /* Default: over 800px */
-    .small { display: none; }
-    .large { display: block; }
-
-    /* 800px or less */
-    @media (max-width: 800px) {
-      .large { display: none; }
-      .small { display: block; }
+    .small {
+      display: none;
+    }
+    @media only screen and (max-width: 800px) {
+      .large {
+        display: none;
+      }
+      .small {
+        display: block;
+      }
     }
   </style>
 </head>
