@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tune | Home</title>
+  <meta name="description" content="Tune is a personal music blog with honest album reviews and mood-based playlists.">
+</head>
+<body>
+
+  <header>
+    <p>Tune</p>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="albums.html">Album &amp; Artist Reviews</a></li>
+        <li><a href="playlists.html">Moods &amp; Activities Playlists</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section aria-labelledby="welcome-heading">
+      <h1 id="welcome-heading">Welcome to Tune</h1>
+      <p>Tune is my personal music blog where I share honest album and artist reviews and build playlists for specific moods and activities, like hiking, reading, homework, and road trips.</p>
+      <p>
+        <a href="albums.html">Read the reviews</a>
+        <a href="playlists.html">Browse playlists</a>
+      </p>
+      <img src="images/home-hero.jpg" alt="Headphones resting on a stack of vinyl records" width="800" height="450">
+    </section>
+
+    <hr>
+
+    <section aria-labelledby="latest-heading">
+      <h2 id="latest-heading">Latest from Tune</h2>
+
+      <article>
+        <img src="images/sweet-boy-cover.jpg" alt="Album cover of Sweet Boy by Malcolm Todd" width="300" height="300">
+        <h3>Latest Review: Sweet Boy &ndash; Malcolm Todd</h3>
+        <p>A short teaser of my review of Sweet Boy goes here. Replace this text with two or three sentences about the album.</p>
+        <p><a href="albums.html">Read the review</a></p>
+      </article>
+
+      <article>
+        <img src="images/hiking-playlist.jpg" alt="Sunlit trail winding through a forest" width="300" height="300">
+        <h3>Latest Playlist: Hiking</h3>
+        <p>A short teaser of my hiking playlist goes here. Replace this text with two or three sentences about the mood and songs.</p>
+        <p><a href="playlists.html">See the playlist</a></p>
+      </article>
+    </section>
+
+    <hr>
+
+    <section aria-labelledby="request-heading">
+      <h2 id="request-heading">Request music for me to review</h2>
+      <form action="#" method="post">
+        <p>
+          <label for="name">Name</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+          <label for="music">Artist/Album</label><br>
+          <input type="text" id="music" name="music" required>
+        </p>
+        <p>
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="4" cols="40"></textarea>
+        </p>
+        <p><button type="submit">Submit request</button></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Tune</p>
+    <p><small>&copy; 2026 Stella Bellman</small></p>
+  </footer>
+
+</body>
+</html>
