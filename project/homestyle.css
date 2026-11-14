@@ -1,0 +1,384 @@
+/* Tune - Project Milestone 6 stylesheet: retro, funky, fun */
+/* Colors: cream #fff1d6, plum #2b1b3d, tangerine #e8442a,
+   mustard #ffc531, teal #19b5a5, pink #ff7eb6 */
+
+
+/* ---------- Page basics ---------- */
+
+body {
+  background-color: #fff1d6;
+  color: #2b1b3d;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+  margin: 0;
+}
+
+main {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 4px solid #2b1b3d;
+}
+
+a {
+  color: #e8442a;
+}
+
+h1, h2 {
+  font-family: Impact, "Arial Black", Arial, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.1;
+  color: #2b1b3d;
+  text-shadow: 4px 4px 0 #e8442a;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #2b1b3d;
+  text-shadow: 2px 2px 0 #fff1d6;
+}
+
+.logo {
+  font-family: Impact, "Arial Black", Arial, sans-serif;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+
+/* ---------- Header and navigation ---------- */
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #2b1b3d;
+  border-bottom: 10px double #ffc531;
+  padding: 10px 5%;
+}
+
+.site-header .logo {
+  color: #ffc531;
+  text-shadow: 3px 3px 0 #e8442a;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 8px;
+}
+
+nav a {
+  display: block;
+  color: #fff1d6;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+}
+
+nav a:hover {
+  background-color: #ff7eb6;
+  color: #2b1b3d;
+}
+
+.current {
+  background-color: #ffc531;
+  color: #2b1b3d;
+}
+
+
+/* ---------- Hero ---------- */
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #ffc531;
+  border: 5px solid #2b1b3d;
+  padding: 25px;
+  margin: 30px 0;
+}
+
+.hero-text {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 95%;
+  max-width: 400px;
+}
+
+
+/* ---------- Buttons ---------- */
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.button {
+  display: block;
+  background-color: #ff7eb6;
+  color: #2b1b3d;
+  border: 3px solid #2b1b3d;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+.button-alt {
+  background-color: #19b5a5;
+}
+
+.button:hover {
+  background-color: #fff1d6;
+}
+
+.buttons .button {
+  flex: 1;
+}
+
+
+/* ---------- Latest review / playlist cards ---------- */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  border: 5px solid #2b1b3d;
+  padding: 20px;
+  margin: 10px;
+}
+
+.card-review {
+  background-color: #19b5a5;
+}
+
+.card-playlist {
+  background-color: #ff7eb6;
+}
+
+.card-image {
+  flex-basis: 40%;
+}
+
+.card-image img {
+  width: 94%;
+}
+
+.card-text {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.card .button {
+  background-color: #2b1b3d;
+  color: #ffc531;
+  margin: 15px 0 0 0;
+}
+
+.card .button:hover {
+  background-color: #ffc531;
+  color: #2b1b3d;
+}
+
+
+/* ---------- Request form ---------- */
+
+.request {
+  background-color: #2b1b3d;
+  color: #fff1d6;
+  border: 5px dashed #ffc531;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.request h2 {
+  color: #ffc531;
+  text-shadow: 3px 3px 0 #e8442a;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.field {
+  flex-basis: 30%;
+  margin-bottom: 15px;
+}
+
+.field-wide {
+  flex-basis: 65%;
+}
+
+.field-submit {
+  flex-basis: 30%;
+}
+
+label {
+  color: #ffc531;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+input, textarea {
+  width: 90%;
+  padding: 8px;
+  border: 3px solid #ffc531;
+  background-color: #fff1d6;
+  color: #2b1b3d;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.field-submit input {
+  width: 100%;
+  background-color: #ff7eb6;
+  color: #2b1b3d;
+  border: 3px solid #fff1d6;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 12px;
+  margin-top: 1.7em;
+}
+
+.field-submit input:hover {
+  background-color: #ffc531;
+}
+
+
+/* ---------- Footer ---------- */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffc531;
+  color: #2b1b3d;
+  border-top: 10px double #2b1b3d;
+  font-weight: bold;
+  padding: 10px 5%;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer .logo {
+  text-shadow: 2px 2px 0 #fff1d6;
+}
+
+
+/* ---------- Tablet: 900 pixels wide or less ---------- */
+
+@media (max-width: 900px) {
+  .card {
+    flex-basis: 100%;
+  }
+
+  .field {
+    flex-basis: 48%;
+  }
+
+  .field-wide,
+  .field-submit {
+    flex-basis: 100%;
+  }
+
+  .field-submit input {
+    margin-top: 0;
+  }
+}
+
+
+/* ---------- Mobile: 700 pixels wide or less ---------- */
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 2.2em;
+  }
+
+  .site-header nav {
+    flex-basis: 100%;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  nav li {
+    margin-left: 0;
+  }
+
+  nav a {
+    padding: 12px 10px;
+    border-bottom: 2px dashed #ffc531;
+  }
+
+  .hero {
+    padding: 15px;
+  }
+
+  .hero-text {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+
+  .hero-image {
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+
+  .card-image {
+    flex-basis: 100%;
+  }
+
+  .card-text {
+    flex-basis: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .field {
+    flex-basis: 100%;
+  }
+}
