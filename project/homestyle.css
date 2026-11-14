@@ -382,3 +382,37 @@ footer .logo {
     flex-basis: 100%;
   }
 }
+
+/* ---------- Link and button text colors (keep at the very end) ---------- */
+
+a.button,
+a.button:link,
+a.button:visited,
+a.button:hover {
+  color: #2b1b3d;
+}
+
+.card a.button,
+.card a.button:link,
+.card a.button:visited {
+  color: #ffc531;
+}
+
+.card a.button:hover {
+  color: #2b1b3d;
+}
+
+nav a:link,
+nav a:visited {
+  color: #fff1d6;
+}
+
+nav a:hover {
+  color: #2b1b3d;
+}
+
+nav a.current:link,
+nav a.current:visited,
+nav a.current:hover {
+  color: #2b1b3d;
+}
