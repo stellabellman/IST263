@@ -124,3 +124,37 @@ h1 {
   display: flex;
   flex-wrap: wrap;
 }
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.skip-link:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  background-color: #6EE7B7;
+  color: #0F172A;
+  z-index: 100;
+}
+
+fieldset {
+  border: 2px solid #6EE7B7;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+legend {
+  color: #F8FAFC;
+  padding: 0 5px;
+}
